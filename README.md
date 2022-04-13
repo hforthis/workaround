@@ -1,5 +1,4 @@
 # BASH
-{+ Commands to work +}
 
 ## Patroni + postgresql:  
 
