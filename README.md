@@ -17,6 +17,11 @@
 #### change leader.  
 ```/usr/local/bin/patronictl -c /etc/patroni/postgres.yml switchover cluster_name```. 
 
+#### pause cluster.  
+```/usr/local/bin/patronictl -c /etc/patroni/postgres.yml pause cluster_name```.
+
+#### resume cluster.  
+```/usr/local/bin/patronictl -c /etc/patroni/postgres.yml resume cluster_name```.
 
 ## Git:  
 #### add new branch  
