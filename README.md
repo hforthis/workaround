@@ -1,4 +1,11 @@
 # BASH
+## OC command:  
+#### get rolebinding - посмотреть какой SA привязан на роль edit-0. 
+```oc get RoleBinding edit-0 -o yaml```.  
+#### get clusterrole - посмотреть права на роль edit. 
+```oc get clusterrole edit -o yaml```.  
+#### подключится к шифту от конкретного пользователя. 
+```oc login --token=2222222UPNtY1111111 --server=https://server_ip:6443```.  
 
 ## Patroni + postgresql:  
 
